@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+@media screen  and (max-width: 767px) {
+    .mobile-col{
+        flex-direction: column;
+    }
+}
+
+.space{
+    justify-content: space-between;
+}
+
+.two-columns{
+    width: 550px;
+}
+
+@media screen  and (max-width: 767px) {
+
+    .two-columns{
+        width: 95%;
+    }
+}
